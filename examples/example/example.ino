@@ -28,7 +28,7 @@ byte syncWord[2] = {199, 10};
 bool packetWaiting;
 
 unsigned long lastSend = 0;
-unsigned int sendDelay = 5000;
+unsigned int sendDelay = 0;
 
 void messageReceived() {
     packetWaiting = true;
