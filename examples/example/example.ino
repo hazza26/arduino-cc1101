@@ -37,7 +37,7 @@ void messageReceived() {
 void setup() {
     radio.init();
     radio.setSyncWord(syncWord);
-    radio.setCarrierFreq(CFREQ_433);
+    radio.setCarrierFreq(CFREQ_900);
     radio.disableAddressCheck();
     radio.setTxPowerAmp(PA_LongDistance);
 
